@@ -5,6 +5,10 @@
     font-family: 'Open Sans', sans-serif;
     font-family: 'Poppins', sans-serif;
     scroll-behavior: smooth;
+    transition: .6s;
+}
+h3:hover{
+    cursor: pointer;
 }
 .wrapper{
     width: 100%;
@@ -270,6 +274,8 @@ h1{
     color: #544837;
     border: 1px solid #d7d7d7;
     border-radius: 90px;
+    padding-top: 3px;
+    padding-bottom: 3px;
     padding-right: 14px;
     padding-left: 14px;
     font-size: 14px;
@@ -277,11 +283,100 @@ h1{
     font-family: 'Open Sans', sans-serif;
     transition: .6s;
 }
-.intro-link {
-    background-color: #FF9900;
-    color: #fff;
-}
 .small-link:hover{
     background-color: #FF9900;
     color: #fff;
 }
+.marketing-cards{
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top: 31px;
+}
+.first-cards {
+    display: flex;
+    justify-content: space-between;
+    gap: 34px;
+}
+.positive-card {
+    width: 377px;
+    border-radius: 8px;
+    background-color: #fff;
+    -webkit-box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+    box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+}
+.positive-card:hover{
+    -moz-transform: scale(1.25);
+-webkit-transform: scale(1.25);
+-o-transform: scale(1.25);
+-ms-transform: scale(1.25);
+transform: scale(1.25);
+}
+.positive-h3 {
+    min-width: 250px;
+    padding-right: 34px;
+    padding-top: 24px;
+    padding-bottom: 30px;
+    color: #2F281E;
+    font-size: 24px;
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
+}
+.positive-h3:hover{
+    color: #ff9900;
+    cursor: pointer;
+}
+.positive-card-items{
+    padding-left: 33px;
+    padding-bottom: 26px;
+}
+.positive-card .small-link {
+    background-color: #F5F5F5;
+}
+.second-cards {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.success-card {
+    width: 790px;
+    border-radius: 8px;
+    background-color: #fff;
+    -webkit-box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+    box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+}
+.success-card:hover{
+    -moz-transform: scale(1.25);
+-webkit-transform: scale(1.25);
+-o-transform: scale(1.25);
+-ms-transform: scale(1.25);
+transform: scale(1.25);
+}
+.success-card-items {
+    padding-left: 30px;
+    padding-top: 30px;
+}
+.success-h3 {
+    font-size: 24px;
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
+    color: #2F281E;
+    padding-bottom: 24px;
+}
+.success-h3:hover{
+    color: #ff9900;
+}
+.small-link {
+    background-color: #F5F5F5;
+}
+.small-link:hover{
+    background-color: #ff9900;
+}
+.intro-link {
+    background-color: #FF9900;
+    color: #fff;
+}
+
